@@ -12,7 +12,7 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: CustomerandProducts
+      solution_name: SolutionA
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://dev-alii.crm.dynamics.com/
       DVM_ENVIRONMENT_URL: https://dvm-alii.crm.dynamics.com/
